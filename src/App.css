@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "vazir";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/src/assets/fonts/Vazir.woff") format("woff");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/src/assets/fonts/Vazir-Bold.woff") format("woff");
+}
+
+button,
+body,
+ul,
+li {
+  font-family: "vazir";
+}
+
+.font-vazir {
+  font-family: "vazir";
+}
+
+a.active {
+  font-weight: 700;
+  color: white;
+}
+
+.background {
+  background-image:linear-gradient(rgba(0,0,0.2,0.2),#191219), url("/src/assets/Images/phone-back-top.jfif");
+}
