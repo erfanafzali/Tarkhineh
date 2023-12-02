@@ -1,4 +1,5 @@
 import "./App.css";
+import Branches from "./components/Branches/Branches";
 import Header from "./components/Header/Header";
 import Introduction from "./components/Introduction/Introduction";
 import Menu from "./components/Menu/Menu";
@@ -11,6 +12,7 @@ function App() {
       <SideBar />
       <Menu />
       <Introduction />
+      <Branches />
     </div>
   );
 }
