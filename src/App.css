@@ -29,5 +29,15 @@ a.active {
 }
 
 .background {
-  background-image:linear-gradient(rgba(0,0,0.2,0.2),#191219), url("/src/assets/Images/phone-back-top.jfif");
+  background-image: linear-gradient(rgba(0, 0, 0.2, 0.2), #191219),
+    url("/src/assets/Images/phone-back-top.jfif");
+}
+
+.background-footer {
+  background-image: linear-gradient(rgba(0, 0, 0.2, 0.2), #191219),
+    url("/src/assets/Images/footer-f.jfif");
+}
+
+.form-control:focus, .form-control:active, .form-control{
+  background: transparent;
 }

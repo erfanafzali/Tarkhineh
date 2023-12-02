@@ -1,5 +1,6 @@
 import "./App.css";
 import Branches from "./components/Branches/Branches";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Introduction from "./components/Introduction/Introduction";
 import Menu from "./components/Menu/Menu";
@@ -13,6 +14,7 @@ function App() {
       <Menu />
       <Introduction />
       <Branches />
+      <Footer />
     </div>
   );
 }
