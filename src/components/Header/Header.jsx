@@ -1,3 +1,5 @@
+import HambergerMenu from "./HambergerMenu";
+
 function Header() {
   return (
     <div className="flex justify-between items-center mt-5 sm:mt-7 md:mt-9 lg:mt-11 px-5 sm:px-7 md:px-9 lg:px-[80px] xl:px-[109px] ">
@@ -13,9 +15,9 @@ export default Header;
 
 function MenuHeader() {
   return (
-    <button className=" md:hidden">
-      <img src="/src/assets/Icons/menu.svg" alt="menu" className=" sm:w-10" />
-    </button>
+    <div className="md:hidden">
+      <HambergerMenu />
+    </div>
   );
 }
 

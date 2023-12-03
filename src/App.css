@@ -38,6 +38,11 @@ a.active {
     url("/src/assets/Images/footer-f.jfif");
 }
 
+.background-burger-menu {
+  background-image: linear-gradient(rgba(0, 0, 0.2, 0.2), #191219),
+  url("/src/assets/Images/burger-menu.jfif");
+}
+
 .form-control:focus, .form-control:active, .form-control{
   background: transparent;
 }
