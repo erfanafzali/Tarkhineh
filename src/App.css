@@ -40,9 +40,16 @@ a.active {
 
 .background-burger-menu {
   background-image: linear-gradient(rgba(0, 0, 0.2, 0.2), #191219),
-  url("/src/assets/Images/burger-menu.jfif");
+    url("/src/assets/Images/burger-menu.jfif");
 }
 
-.form-control:focus, .form-control:active, .form-control{
+.form-control:focus,
+.form-control:active,
+.form-control {
   background: transparent;
+}
+
+.zIndex {
+  z-index: 1000 !important;
+
 }
