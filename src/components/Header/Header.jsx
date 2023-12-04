@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import HambergerMenu from "./HambergerMenu";
 import Modal from "react-modal";
+import Navbar from "./NavBar";
 
 function Header() {
   return (
@@ -55,28 +57,17 @@ function Option() {
           />
         </button>
       </span>
-      <span className="w-full">
-        <button className="bg-green-100 p-[2.2px] w-full flex justify-center items-center rounded">
-          <img src="/src/assets/Icons/user.svg" alt="" className="sm:w-6" />
-        </button>
-      </span>
+      <button className="bg-green-100 p-[2.2px] w-full flex justify-center items-center rounded">
+        <span className="w-full pr-[2px]">
+          <img src="/src/assets/Icons/user.svg" alt="" className="sm:w-5"/>
+        </span>
+      </button>
     </div>
   );
 }
 
 function NavBar() {
-  return (
-    <div className="hidden md:flex justify-center items-center md:px-2">
-      <ul className="w-full flex justify-center items-center font-bold xl:text-xl lg:text-lg xl:gap-x-8 lg:gap-x-6 md:text-sm md:gap-x-4 text-gray-500">
-        <li>صفحه ی اصلی</li>
-        <li>شعبه</li>
-        <li>منو</li>
-        <li>اعطای نمایندگی</li>
-        <li>درباره ی ما</li>
-        <li>تماس با ما</li>
-      </ul>
-    </div>
-  );
+  return <Navbar />;
 }
 
 function SearchIcon() {
