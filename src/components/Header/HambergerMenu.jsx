@@ -36,17 +36,7 @@ function HambergerMenu() {
                 </span>
                 <span>صفحه اصلی</span>
               </li>
-              <li className="w-full border-b border-gray-400 flex justify-between items-cente pb-1 sm:pb-2">
-                <div className="w-full flex justify-start items-center gap-x-1 sm:gap-x-2">
-                  <span>
-                    <img src="/src/assets/Icons/menu-board2.svg" alt="" />
-                  </span>
-                  <span>منو</span>
-                </div>
-                <span>
-                  <img src="/src/assets/Icons/arrow bot.svg" alt="" />
-                </span>
-              </li>
+              <BurgerMenuSide />
               <li className="w-full border-b border-gray-400 flex justify-between items-cente pb-1 sm:pb-2">
                 <div className="w-full flex justify-start items-center gap-x-1 sm:gap-x-2">
                   <span>
@@ -79,3 +69,19 @@ function HambergerMenu() {
 }
 
 export default HambergerMenu;
+
+function BurgerMenuSide() {
+  return (
+    <li className="w-full border-b border-gray-400 flex justify-between items-cente pb-1 sm:pb-2">
+      <div className="w-full flex justify-start items-center gap-x-1 sm:gap-x-2">
+        <span>
+          <img src="/src/assets/Icons/menu-board2.svg" alt="" />
+        </span>
+        <span>منو</span>
+      </div>
+      <span>
+        <img src="/src/assets/Icons/arrow bot.svg" alt="" />
+      </span>
+    </li>
+  );
+}

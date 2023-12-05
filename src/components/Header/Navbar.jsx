@@ -4,15 +4,15 @@ import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/20/solid";
 import { Fragment, useState } from "react";
 function Navbar() {
   return (
-    <div className="hidden md:flex justify-center items-center md:px-2">
+    <div className="hidden md:flex justify-center items-center md:px-2 z-50">
       <ul className="w-full flex justify-center items-center font-bold md:text-xs lg:text-base xl:text-xl xl:gap-x-8 lg:gap-x-6  md:gap-x-4 text-gray-500">
-        <li className=" flex">
-          <Home />
-        </li>
+        <li className=" flex text-green-700">صفحه ی اصلی</li>
         <li className="z-50">
-          <BranchNavbar />
+          <NavBranch />
         </li>
-        <li>منو</li>
+        <li>
+          <NavMenu />
+        </li>
         <li>اعطای نمایندگی</li>
         <li>درباره ی ما</li>
         <li>تماس با ما</li>
@@ -23,7 +23,7 @@ function Navbar() {
 
 export default Navbar;
 
-function Home() {
+function NavBranch() {
   const [open, setOpen] = useState(false);
 
   return (
@@ -35,7 +35,7 @@ function Home() {
           <Menu.Button
             onClick={() => setOpen((open) => !open)}
             className="inline-flex w-full justify-center items-center rounded-md  px-0 text-center pr-2 py-2 md:text-xs lg:text-base xl:text-xl text-gray-500 bg-white font-bold">
-            صفحه ی اصلی
+            شعبه
             {open ? (
               <ChevronUpIcon
                 className="  h-5 w-5 text-gray-500"
@@ -63,7 +63,7 @@ function Home() {
                 {({ active }) => (
                   <button
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
+                      active ? "bg-green-500 text-white" : "text-gray-700"
                     } group flex w-full items-center rounded-md px-4 py-2 text-sm lg:text-base `}>
                     {active ? (
                       <EditActiveIcon
@@ -86,7 +86,7 @@ function Home() {
                 {({ active }) => (
                   <button
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
+                      active ? "bg-green-500 text-white" : "text-gray-700"
                     } group flex w-full items-center rounded-md px-4 py-2 text-sm lg:text-base `}>
                     {active ? (
                       <EditActiveIcon
@@ -109,7 +109,7 @@ function Home() {
                 {({ active }) => (
                   <button
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
+                      active ? "bg-green-500 text-white" : "text-gray-700"
                     } group flex w-full items-center rounded-md px-4 py-2 text-sm lg:text-base `}>
                     {active ? (
                       <EditActiveIcon
@@ -132,7 +132,7 @@ function Home() {
                 {({ active }) => (
                   <button
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
+                      active ? "bg-green-500 text-white" : "text-gray-700"
                     } group flex w-full items-center rounded-md px-4 py-2 text-sm lg:text-base `}>
                     {active ? (
                       <EditActiveIcon
@@ -157,7 +157,7 @@ function Home() {
   );
 }
 
-function BranchNavbar() {
+function NavMenu() {
   const [open, setOpen] = useState(false);
   const chevronIcon = open ? (
     <ChevronUpIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
@@ -174,7 +174,7 @@ function BranchNavbar() {
           <Menu.Button
             onClick={() => setOpen(!open)}
             className="inline-flex w-full justify-center items-center rounded-md  px-0 text-center pr-2 py-2 md:text-xs lg:text-base xl:text-xl text-gray-500 bg-white font-bold">
-            شعبه
+            منو
             {chevronIcon}
           </Menu.Button>
         </div>
@@ -192,7 +192,7 @@ function BranchNavbar() {
                 {({ active }) => (
                   <button
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
+                      active ? "bg-green-500 text-white" : "text-gray-700"
                     } group flex w-full items-center rounded-md px-4 py-2 text-sm lg:text-base `}>
                     {active ? (
                       <EditActiveIcon
@@ -205,7 +205,7 @@ function BranchNavbar() {
                         aria-hidden="true"
                       />
                     )}
-                    اکباتان
+                     غذای اصلی
                   </button>
                 )}
               </Menu.Item>
@@ -215,7 +215,7 @@ function BranchNavbar() {
                 {({ active }) => (
                   <button
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
+                      active ? "bg-green-500 text-white" : "text-gray-700"
                     } group flex w-full items-center rounded-md px-4 py-2 text-sm lg:text-base `}>
                     {active ? (
                       <EditActiveIcon
@@ -228,7 +228,7 @@ function BranchNavbar() {
                         aria-hidden="true"
                       />
                     )}
-                    چالوس
+                     پیش غذا
                   </button>
                 )}
               </Menu.Item>
@@ -238,7 +238,7 @@ function BranchNavbar() {
                 {({ active }) => (
                   <button
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
+                      active ? "bg-green-500 text-white" : "text-gray-700"
                     } group flex w-full items-center rounded-md px-4 py-2 text-sm lg:text-base `}>
                     {active ? (
                       <EditActiveIcon
@@ -251,7 +251,7 @@ function BranchNavbar() {
                         aria-hidden="true"
                       />
                     )}
-                    اقدسیه
+                     دسر
                   </button>
                 )}
               </Menu.Item>
@@ -261,7 +261,7 @@ function BranchNavbar() {
                 {({ active }) => (
                   <button
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
+                      active ? "bg-green-500 text-white" : "text-gray-700"
                     } group flex w-full items-center rounded-md px-4 py-2 text-sm lg:text-base `}>
                     {active ? (
                       <EditActiveIcon
@@ -274,7 +274,7 @@ function BranchNavbar() {
                         aria-hidden="true"
                       />
                     )}
-                    ونک
+                     نوشیدنی
                   </button>
                 )}
               </Menu.Item>

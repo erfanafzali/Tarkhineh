@@ -3,6 +3,7 @@ import { useState } from "react";
 import HambergerMenu from "./HambergerMenu";
 import Modal from "react-modal";
 import Navbar from "./NavBar";
+import User from "../User/User";
 
 function Header() {
   return (
@@ -53,15 +54,11 @@ function Option() {
           <img
             src="/src/assets/Icons/shopping-cart.svg"
             alt=""
-            className="sm:w-6"
+            className="sm:w-6 md:h-6 h-7 "
           />
         </button>
       </span>
-      <button className="bg-green-100 p-[2.2px] w-full flex justify-center items-center rounded">
-        <span className="w-full pr-[2px]">
-          <img src="/src/assets/Icons/user.svg" alt="" className="sm:w-5"/>
-        </span>
-      </button>
+      <User />
     </div>
   );
 }
