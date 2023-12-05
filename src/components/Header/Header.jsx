@@ -54,7 +54,7 @@ function Option() {
           <img
             src="/src/assets/Icons/shopping-cart.svg"
             alt=""
-            className="sm:w-6 md:h-6 h-7 "
+            className="sm:w-6 md:h-6 h-6 "
           />
         </button>
       </span>
