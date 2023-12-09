@@ -80,7 +80,7 @@ function NavBranch() {
       <Menu
         as="div"
         className="relative inline-block text-left w-full whitespace-normal">
-        <div className="">
+        <div role="button" className="">
           <Menu.Button
             onClick={() => setOpen((open) => !open)}
             className="inline-flex w-full justify-center items-center rounded-md  px-0 text-center  md:text-xs lg:text-base xl:text-xl text-gray-600 bg-white ">
@@ -230,7 +230,7 @@ function NavMenu() {
       <Menu
         as="div"
         className="relative inline-block text-left w-full whitespace-normal">
-        <div className="">
+        <div role="button" className="">
           <Menu.Button
             onClick={() => setOpen(!open)}
             className="inline-flex w-full justify-center items-center rounded-md  px-0 text-center  md:text-xs lg:text-base xl:text-xl text-gray-600 bg-white ">

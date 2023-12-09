@@ -1,0 +1,128 @@
+{
+    "food": [
+        {
+            "id": 1,
+            "title": "دلمه برگ کلم",
+            "favorite": false,
+            "lastPrice": "220,000",
+            "price": "209,000",
+            "stare": "5",
+            "discount": "%12",
+            "point": "52 امتیاز",
+            "img": "/src/assets/Images/img/img1.png"
+        },
+        {
+            "id": 2,
+            "title": "بادمجان شکم‌پر",
+            "favorite": false,
+            "lastPrice": "155,000",
+            "price": "136,000",
+            "stare": "4",
+            "discount": "%18",
+            "point": "31 امتیاز",
+            "img": "/src/assets/Images/img/img2.png"
+        },
+        {
+            "id": 3,
+            "title": "کالزونه اسفناج",
+            "favorite": false,
+            "lastPrice": "190,000",
+            "price": "177,000",
+            "stare": "5",
+            "discount": "%17",
+            "point": "56 امتیاز",
+            "img": "/src/assets/Images/img/img3.png"
+        },
+        {
+            "id": 4,
+            "title": "پیتزا قارچ",
+            "favorite": false,
+            "lastPrice": "215,000",
+            "price": "175,000",
+            "stare": "3",
+            "discount": "%25",
+            "point": "17 امتیاز",
+            "img": "/src/assets/Images/img/img4.png"
+        },
+        {
+            "id": 5,
+            "title": "پنینی اسفناج",
+            "favorite": false,
+            "price": "100,000",
+            "stare": "5",
+            "discount": "%15",
+            "point": "18 امتیاز",
+            "img": ""
+        },
+        {
+            "id": 6,
+            "title": "پیتزا پپرونی",
+            "favorite": false,
+            "price": "95,000",
+            "stare": "5",
+            "discount": "%45",
+            "point": "36 امتیاز",
+            "img": ""
+        },
+        {
+            "id": 7,
+            "title": "راتاتویی",
+            "favorite": false,
+            "price": "148,000",
+            "stare": "3",
+            "discount": "%18",
+            "point": "47 امتیاز",
+            "img": ""
+        },
+        {
+            "id": 8,
+            "title": "بورانی بادمجان",
+            "favorite": false,
+            "price": "132,000",
+            "stare": "4",
+            "discount": "%22",
+            "point": "42 امتیاز",
+            "img": ""
+        },
+        {
+            "id": 9,
+            "title": "سوشی",
+            "favorite": false,
+            "price": "95,000",
+            "stare": "5",
+            "discount": "%15",
+            "point": "15 امتیاز",
+            "img": ""
+        },
+        {
+            "id": 10,
+            "title": "راتاتویی",
+            "favorite": false,
+            "price": "110,000",
+            "stare": "3",
+            "discount": "%45",
+            "point": "32 امتیاز",
+            "img": ""
+        },
+        {
+            "id": 11,
+            "title": "پاکورا سبزیجات",
+            "favorite": false,
+            "price": "150,000",
+            "stare": "5",
+            "discount": "%8",
+            "point": "50 امتیاز",
+            "img": ""
+        },
+        {
+            "id": 12,
+            "title": "پپرونی",
+            "favorite": false,
+            "price": "146,000",
+            "stare": "4",
+            "discount": "%18",
+            "point": "22 امتیاز",
+            "img": ""
+        }
+    ]
+}

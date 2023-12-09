@@ -31,7 +31,7 @@ function NavBranch() {
       <Menu
         as="div"
         className="relative inline-block text-left w-full whitespace-normal">
-        <div className="font-bold">
+        <div role="button" className="font-bold">
           <Menu.Button
             onClick={() => setOpen((open) => !open)}
             className="inline-flex w-full justify-center items-center rounded-md  px-0 text-center pr-2 py-2 md:text-xs lg:text-base xl:text-xl text-gray-500 bg-white font-bold">
@@ -170,7 +170,7 @@ function NavMenu() {
       <Menu
         as="div"
         className="relative inline-block text-left w-full whitespace-normal">
-        <div className="font-bold">
+        <div role="button" className="font-bold">
           <Menu.Button
             onClick={() => setOpen(!open)}
             className="inline-flex w-full justify-center items-center rounded-md  px-0 text-center pr-2 py-2 md:text-xs lg:text-base xl:text-xl text-gray-500 bg-white font-bold">
@@ -229,7 +229,7 @@ function NavMenu() {
                       />
                     )}
                      پیش غذا
-                  </button>
+                  </button> 
                 )}
               </Menu.Item>
             </div>
