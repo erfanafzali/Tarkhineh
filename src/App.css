@@ -51,5 +51,22 @@ a.active {
 
 .zIndex {
   z-index: 1000 !important;
+}
 
+/* CSS سفارشی برای مخفی کردن اسکرولبار */
+.hide-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.scroll-curser {
+  cursor: ew-resize;
 }

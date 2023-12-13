@@ -2,9 +2,9 @@
 import { HeartIcon } from "@heroicons/react/24/outline";
 const FoodItemSpecial = ({ id, title, stare, price, discount, point, img }) => {
   // اگر می‌خواهید اقلامی با id کمتر از 5 نمایش داده شوند
-  if (id < 5) {
+  if (id <= 5) {
     return (
-      <div className="w-full flex justify-center items-start  mb-10 sm:mb-12 md:mb-14 lg:mb-16 rounded-lg border-2">
+      <div className="w-full flex justify-center items-start  mb-10 sm:mb-12 md:mb-14 lg:mb-16 rounded-lg border-2 ">
         <div className="w-full flex flex-col justify-center items-start flex-nowrap h-auto gap-y-4 sm:gap-y-5 md:gap-y-6 lg:gap-y-7">
           <div className="w-full h-auto">
             <img
