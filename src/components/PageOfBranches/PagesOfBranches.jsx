@@ -122,7 +122,49 @@ function BranchFooter() {
       <div className="w-full flex flex-col justify-center items-center">
         <div className="background-branch-footer w-full bg-cover bg-center min-h-[177px]  md:min-h-[366px] flex justify-center items-center relative">
           <div className="absolute border-[3px] border-green-800 md:-bottom-20  -bottom-10 w-[85%] md:w-[60%] bg-white rounded-lg md:min-h-[130px]  min-h-[60px]">
-    
+            <div className="w-full flex justify-center items-center py-1 md:py-2">
+              <div className="w-full md:pt-3 pt-2 flex flex-col justify-center items-center gap-y-2 md:gap-y-3">
+                <span>
+                  <img
+                    src="/src/assets/Icons/call-calling.svg"
+                    alt=""
+                    className="w-5 sm:w-6 md:w-7 lg:w-8"
+                  />
+                </span>
+                <div>
+                  <p className="text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px]">
+                    ۰۲۱-۳۳۵۳۵۳۵۴
+                  </p>
+                  <p className="text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px]">
+                    ۰۲۱-۳۳۵۳۵۳۵۶
+                  </p>
+                </div>
+              </div>
+              <div className="w-full md:pt-3 pt-2 text-center flex flex-col justify-center items-center gap-y-2 md:gap-y-3">
+                <span>
+                  <img
+                    src="/src/assets/Icons/location.svg"
+                    alt=""
+                    className="w-5 sm:w-6 md:w-7 lg:w-8"
+                  />
+                </span>
+                <p className="text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px]">
+                  شهرک اکباتان، فاز ۳، <br /> مجتمع تجاری کوروش
+                </p>
+              </div>
+              <div className="w-full md:pt-3 pt-2 flex flex-col justify-center items-center gap-y-2 md:gap-y-3 text-center">
+                <span>
+                  <img
+                    src="/src/assets/Icons/clock.svg"
+                    alt=""
+                    className="w-5 sm:w-6 md:w-7 lg:w-8"
+                  />
+                </span>
+                <p className="text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px]">
+                  همه‌روزه از <br /> ساعت ۱۲ الی ۲۳{" "}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
