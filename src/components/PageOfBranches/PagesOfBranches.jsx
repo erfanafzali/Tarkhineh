@@ -20,6 +20,7 @@ function PageOfBranches() {
       <SpecialMenu />
       <PopularMenu />
       <NonIranianMenu />
+      <BranchFooter />
     </div>
   );
 }
@@ -100,6 +101,32 @@ function NonIranianMenu() {
             </div>
           )}
         </div>
+      </div>
+    </div>
+  );
+}
+
+function BranchFooter() {
+  return (
+    <div className="w-full flex flex-col justify-center items-center mb-24 sm:mb-28  md:mb-32  lg:mb-36 ">
+      <button className=" flex justify-center gap-x-2 font-semibold items-center px-6 py-2 border-2 outline-0 text-green-700 border-green-700 rounded-lg mb-12">
+        <span>
+          <img src="/src/assets/Icons/note.svg" alt="" />
+        </span>
+        <span>مشاهده منوی کامل</span>
+      </button>
+
+      <h2 className="w-full text-center text-xl lg:text-2xl xl:text-3xl font-bold mb-4 sm:mb-5 md:mb-6 lg:mb-8 mt-8">
+        شعبه اکباتان
+      </h2>
+      <div className="w-full flex flex-col justify-center items-center">
+        <div className="background-branch-footer w-full bg-cover bg-center min-h-[177px]  md:min-h-[366px] flex justify-center items-center relative">
+          <div className="absolute border-[3px] border-green-800 md:-bottom-20  -bottom-10 w-[85%] md:w-[60%] bg-white rounded-lg md:min-h-[130px]  min-h-[60px]">
+    
+          </div>
+        </div>
+
+        <div></div>
       </div>
     </div>
   );

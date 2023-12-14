@@ -12,7 +12,7 @@ const FoodItemNonIranian = ({
   // اگر می‌خواهید اقلامی با id کمتر از 5 نمایش داده شوند
   if (8 < id) {
     return (
-      <div className="w-full flex justify-center items-start  mb-10 sm:mb-12 md:mb-14 lg:mb-16 rounded-lg border-2">
+      <div className="w-full flex justify-center items-start  mb-6 sm:mb-8 md:mb-10 lg:mb-12 rounded-lg border-2">
         <div className="w-full flex flex-col justify-center items-start flex-nowrap h-auto gap-y-4 sm:gap-y-5 md:gap-y-6 lg:gap-y-7">
           <div className="w-full h-auto">
             <img
