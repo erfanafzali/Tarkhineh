@@ -4,6 +4,7 @@ import { getAsyncFood } from "../../features/food/foodSlice";
 import FoodItemSpecial from "./FoodItemSpecial";
 import FoodItemFavorire from "./FoodItemFavorire";
 import FoodItemNonIranian from "./FoodItemNonIranian";
+import Comments from "../Comments/Comments";
 
 function PageOfBranches() {
   const dispatch = useDispatch();
@@ -168,7 +169,7 @@ function BranchFooter() {
           </div>
         </div>
 
-        <div></div>
+         <Comments/>
       </div>
     </div>
   );
