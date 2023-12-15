@@ -14,7 +14,7 @@ const StyledSwiperSlide = styled(SwiperSlide)`
   background-position: center;
   background-size: cover;
   width: 300px; /* Default width for mobile */
-  border: 3px solid gray;
+  border: 3px solid green;
   border-radius: 10px;
 
   @media (min-width: 768px) {
@@ -23,7 +23,7 @@ const StyledSwiperSlide = styled(SwiperSlide)`
     height: 300px;
 
     img {
-      width: 15%; /* Change the width of the image */
+      width: 10%; /* Change the width of the image */
       max-width: 100%; /* Ensure the image does not exceed its container's width */
       display: flex;
       justify-content: center;
@@ -48,6 +48,7 @@ const StyledSwiperSlide = styled(SwiperSlide)`
     justify-content: center;
     align-items: center;
     border-radius: 50%; /* Add rounded corners */
+    border: 3px solid green;
   }
 
   h3 {
@@ -68,7 +69,8 @@ const StyledSwiperSlide = styled(SwiperSlide)`
 
 export default function Comments() {
   return (
-    <div className="w-full mt-28">
+    <div className="w-full mt-36">
+      <h1 className="w-full text-center text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl ">نظرات کاربران</h1>
       <StyledSwiper
         effect={"coverflow"}
         grabCursor={true}
@@ -87,13 +89,13 @@ export default function Comments() {
         <StyledSwiperSlide>
           <div className="w-full justify-center items-center text-justify">
             <img
-              src="/src/assets/Images/person1.svg"
+              src="/src/assets/Images/person2.svg"
               alt=""
               className="rounded-full "
             />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
+            <h3 className="text-xs md:text-sm">آرزو محمدعلیزاده</h3>
             <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
+            <p className="text-xs md:text-sm md:px-16">
               از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
               عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
               تشکر میکنم.
@@ -107,9 +109,25 @@ export default function Comments() {
               alt=""
               className="rounded-full "
             />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
+            <h3 className="text-xs md:text-sm"> سردار وظیفه </h3>
             <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
+            <p className="text-xs md:text-sm md:px-16">
+              از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
+              عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
+              تشکر میکنم.
+            </p>
+          </div>
+        </StyledSwiperSlide>
+        <StyledSwiperSlide>
+          <div className="w-full justify-center items-center text-justify">
+            <img
+              src="/src/assets/Images/person2.svg"
+              alt=""
+              className="rounded-full "
+            />
+            <h3 className="text-xs md:text-sm">آرزو محمدعلیزاده</h3>
+            <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
+            <p className="text-xs md:text-sm md:px-16">
               از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
               عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
               تشکر میکنم.
@@ -123,9 +141,25 @@ export default function Comments() {
               alt=""
               className="rounded-full "
             />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
+            <h3 className="text-xs md:text-sm"> سردار وظیفه </h3>
             <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
+            <p className="text-xs md:text-sm md:px-16">
+              از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
+              عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
+              تشکر میکنم.
+            </p>
+          </div>
+        </StyledSwiperSlide>
+        <StyledSwiperSlide>
+          <div className="w-full justify-center items-center text-justify">
+            <img
+              src="/src/assets/Images/person2.svg"
+              alt=""
+              className="rounded-full "
+            />
+            <h3 className="text-xs md:text-sm">آرزو محمدعلیزاده</h3>
+            <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
+            <p className="text-xs md:text-sm md:px-16">
               از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
               عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
               تشکر میکنم.
@@ -139,9 +173,25 @@ export default function Comments() {
               alt=""
               className="rounded-full "
             />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
+            <h3 className="text-xs md:text-sm"> سردار وظیفه</h3>
             <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
+            <p className="text-xs md:text-sm md:px-16">
+              از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
+              عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
+              تشکر میکنم.
+            </p>
+          </div>
+        </StyledSwiperSlide>
+        <StyledSwiperSlide>
+          <div className="w-full justify-center items-center text-justify">
+            <img
+              src="/src/assets/Images/person2.svg"
+              alt=""
+              className="rounded-full "
+            />
+            <h3 className="text-xs md:text-sm">آرزو محمدعلیزاده</h3>
+            <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
+            <p className="text-xs md:text-sm md:px-16">
               از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
               عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
               تشکر میکنم.
@@ -155,9 +205,9 @@ export default function Comments() {
               alt=""
               className="rounded-full "
             />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
+            <h3 className="text-xs md:text-sm">سردار وظیفه </h3>
             <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
+            <p className="text-xs md:text-sm md:px-16">
               از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
               عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
               تشکر میکنم.
@@ -167,61 +217,13 @@ export default function Comments() {
         <StyledSwiperSlide>
           <div className="w-full justify-center items-center text-justify">
             <img
-              src="/src/assets/Images/person1.svg"
+              src="/src/assets/Images/person2.svg"
               alt=""
               className="rounded-full "
             />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
+            <h3 className="text-xs md:text-sm">آرزو محمدعلیزاده</h3>
             <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
-              از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
-              عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
-              تشکر میکنم.
-            </p>
-          </div>
-        </StyledSwiperSlide>
-        <StyledSwiperSlide>
-          <div className="w-full justify-center items-center text-justify">
-            <img
-              src="/src/assets/Images/person1.svg"
-              alt=""
-              className="rounded-full "
-            />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
-            <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
-              از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
-              عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
-              تشکر میکنم.
-            </p>
-          </div>
-        </StyledSwiperSlide>
-        <StyledSwiperSlide>
-          <div className="w-full justify-center items-center text-justify">
-            <img
-              src="/src/assets/Images/person1.svg"
-              alt=""
-              className="rounded-full "
-            />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
-            <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
-              از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
-              عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
-              تشکر میکنم.
-            </p>
-          </div>
-        </StyledSwiperSlide>
-        <StyledSwiperSlide>
-          <div className="w-full justify-center items-center text-justify">
-            <img
-              src="/src/assets/Images/person1.svg"
-              alt=""
-              className="rounded-full "
-            />
-            <h3 className="text-xs">آرزو محمدعلیزاده</h3>
-            <h4 className="text-xs">۲۳ اسفند ۱۴۰۱</h4>
-            <p className="text-xs">
+            <p className="text-xs md:text-sm md:px-16">
               از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
               عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
               تشکر میکنم.

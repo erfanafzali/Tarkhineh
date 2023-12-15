@@ -116,7 +116,6 @@ function BranchFooter() {
         </span>
         <span>مشاهده منوی کامل</span>
       </button>
-
       <h2 className="w-full text-center text-xl lg:text-2xl xl:text-3xl font-bold mb-4 sm:mb-5 md:mb-6 lg:mb-8 mt-8">
         شعبه اکباتان
       </h2>
@@ -169,7 +168,7 @@ function BranchFooter() {
           </div>
         </div>
 
-         <Comments/>
+        <Comments />
       </div>
     </div>
   );
